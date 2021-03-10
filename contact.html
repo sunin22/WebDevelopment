@@ -1,0 +1,45 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+  </head>
+  <body>
+    <h3>My Contact Details</h3>
+    <ul> <!--/ul-li/dottype order-->
+      <li>Email</li>
+      <li>Phone</li>
+      <li>Location</li>
+    </ul>
+    <hr> <!--밑에 action이 submit누르면 되돌아가는 페이지-->
+    <form class="" action="mailto:csi@gmail.com" method="post">
+      <label>Your Name:</label>
+      <input type="text" name="yourname" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="youremail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourmessage" rows="10" cols="20"></textarea><br>
+      <input type="submit" name="">
+    </form>
+    <!-- type은 그 타입대로 생성, name은 이메일 안에 자동으로 함께 입력-->
+
+    <hr>
+    <form action="index.html" method="post" enctype="text/plain">
+      <label>Your Name: </label>
+      <input type="text" name="" value="">
+      <input type="color" name="" value=""><br>
+
+      <label>Do you want to sign up?</label>
+      <input type="checkbox" name="" value=""><br>
+      <input type="file" name="" value=""><br>
+      <input type="date" name="" value=""><br>
+      <input type="radio" name="" value=""><br>
+      <input type="range" name="" value=""><br>
+      <label>Password: </label>
+      <input type="password" name="" value="">
+      <input type="submit" name="">
+    </form>
+</body>
+</html>
+
+<!-- 작성칸 만들때 양식: form - label - input-->
